@@ -1,6 +1,3 @@
-provider "aws" {
-  region = "us-east-1"  # Change this to your preferred AWS region
-}
 
 # S3 bucket for storing Elastic Beanstalk application versions
 resource "aws_s3_bucket" "elastic_beanstalk" {
